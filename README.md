@@ -6,7 +6,7 @@ The robot is able to move from the current coordinate to a new coordinate based 
 searching algorithm. The process can be executed repeatedly.
 <br />
 <br />
-One has the option to run this code in real-life or in a Gazebo simulation. Either way, it is accompanied by an RViz visualization.
+One has the option to run this code in real-life or in a Gazebo simulation. Either way, it is accompanied by the RViz visualization.
 
 ![image](https://github.com/sil123456/Zhao_Liyuan_ws/assets/100420930/880d6dfb-dd74-4cb2-8aaa-76d3b1bcd8b2)
 
