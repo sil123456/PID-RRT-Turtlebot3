@@ -4,7 +4,6 @@
 import rclpy
 from rclpy.node import Node
 from turtlesim.msg import Pose
-# from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 import random
 
@@ -42,7 +41,6 @@ class SwimNode(Node):
 
 
     def pose_callback(self, msg):
-        # print('enter')
         if self.start_pos == False:
             self.start_x = msg.x
             self.start_y = msg.y
