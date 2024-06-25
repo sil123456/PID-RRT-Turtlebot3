@@ -1,3 +1,5 @@
 *.mak linguist-detectable=false
 *.make linguist-detectable=false
 *.cmake linguist-detectable=false
+*.Makefile linguist-detectable=false
+*.o.d linguist-detectable=false
