@@ -1,0 +1,27 @@
+[8.415s] Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/src/autoturtle': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autoturtle build --build-base /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build install --record /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/install.log --single-version-externally-managed install_data
+[11.718s] running egg_info
+[11.749s] writing ../../build/autoturtle/autoturtle.egg-info/PKG-INFO
+[11.750s] writing dependency_links to ../../build/autoturtle/autoturtle.egg-info/dependency_links.txt
+[11.765s] writing entry points to ../../build/autoturtle/autoturtle.egg-info/entry_points.txt
+[11.765s] writing requirements to ../../build/autoturtle/autoturtle.egg-info/requires.txt
+[11.778s] writing top-level names to ../../build/autoturtle/autoturtle.egg-info/top_level.txt
+[11.779s] reading manifest file '../../build/autoturtle/autoturtle.egg-info/SOURCES.txt'
+[11.791s] writing manifest file '../../build/autoturtle/autoturtle.egg-info/SOURCES.txt'
+[11.793s] running build
+[11.793s] running build_py
+[11.796s] running install
+[11.806s] running install_lib
+[11.812s] running install_data
+[11.822s] running install_egg_info
+[11.837s] removing '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages/autoturtle-0.0.0-py3.10.egg-info' (and everything under it)
+[11.837s] Copying ../../build/autoturtle/autoturtle.egg-info to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages/autoturtle-0.0.0-py3.10.egg-info
+[11.841s] running install_scripts
+[12.266s] Installing listener script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[12.270s] Installing my_teleop_node script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[12.271s] Installing swim_node script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[12.282s] Installing swim_to_goal script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[12.282s] Installing test script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[12.286s] Installing test2 script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[12.286s] Installing two_circle_8shape script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[12.287s] writing list of installed files to '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/install.log'
+[12.896s] Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/src/autoturtle' returned '0': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autoturtle build --build-base /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build install --record /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/install.log --single-version-externally-managed install_data

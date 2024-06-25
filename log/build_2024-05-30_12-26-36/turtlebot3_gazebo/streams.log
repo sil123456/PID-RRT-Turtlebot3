@@ -1,0 +1,119 @@
+[0.142s] Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_gazebo -- -j2 -l2
+[1.160s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[91.963s] [ 25%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[97.297s] [ 25%] Built target turtlebot3_drive
+[97.784s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[141.155s] [ 50%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[142.474s] [ 50%] Built target obstacle1
+[142.650s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[191.672s] [ 75%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[192.646s] [ 75%] Built target obstacle2
+[192.907s] [ 87%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[252.686s] [100%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[253.280s] [100%] Built target obstacles
+[253.323s] Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_gazebo -- -j2 -l2
+[253.581s] Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_gazebo
+[253.611s] -- Install configuration: ""
+[253.613s] -- Installing: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[253.678s] -- Set runtime path of "/home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[253.678s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[253.678s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[253.679s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[253.680s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[253.680s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[253.680s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[253.681s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[253.681s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[253.681s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[253.681s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[253.681s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[253.682s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[253.682s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[253.682s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[253.682s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[253.683s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[253.685s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[253.686s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[253.686s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[253.686s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[253.693s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[253.693s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[253.694s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[253.695s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[253.696s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[253.696s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[253.698s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[253.698s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[253.698s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[253.699s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[253.699s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[253.699s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[253.699s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[253.699s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[253.700s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[253.700s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[253.709s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[253.709s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[253.710s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[253.710s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[253.711s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[253.711s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[253.711s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[253.711s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[253.712s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[253.717s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[253.717s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[253.717s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[253.718s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[253.718s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[253.718s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[253.718s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[253.719s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+[253.719s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+[253.719s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[253.719s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[253.720s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[253.720s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[253.728s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[253.729s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[253.729s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[253.729s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[253.729s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[253.730s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[253.730s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[253.736s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[253.737s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[253.737s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+[253.737s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[253.737s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[253.738s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[253.738s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[253.738s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[253.738s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[253.739s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[253.739s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[253.739s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[253.740s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[253.740s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[253.740s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[253.749s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/include/
+[253.750s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[253.751s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[253.751s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[253.751s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[253.751s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[253.752s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[253.752s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[253.752s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[253.752s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[253.753s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[253.753s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[253.753s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[253.753s] -- Installing: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[253.753s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[253.754s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[253.754s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[253.754s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[253.754s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[253.755s] -- Up-to-date: /home/rcpsl/Zhao_Liyuan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[253.755s] Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_gazebo

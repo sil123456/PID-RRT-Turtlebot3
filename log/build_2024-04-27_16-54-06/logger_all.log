@@ -1,0 +1,113 @@
+[0.295s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.295s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x773125540a30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x773125540460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x773125540460>>)
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.878s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rcpsl/Zhao_Liyuan_ws'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(autoturtle) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package 'autoturtle' with type 'ros.ament_python' and name 'autoturtle'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.060s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rcpsl/Zhao_Liyuan_ws/install
+[1.067s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[1.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'cmake_args' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'cmake_target' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'cmake_clean_cache' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'cmake_clean_first' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'cmake_force_configure' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'ament_cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'catkin_cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'autoturtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.273s] DEBUG:colcon.colcon_core.verb:Building package 'autoturtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle', 'merge_install': False, 'path': '/home/rcpsl/Zhao_Liyuan_ws/autoturtle', 'symlink_install': False, 'test_result_base': None}
+[1.274s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.278s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rcpsl/Zhao_Liyuan_ws/autoturtle' with build type 'ament_python'
+[1.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoturtle', 'ament_prefix_path')
+[1.284s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/hook/ament_prefix_path.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/hook/ament_prefix_path.dsv'
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/hook/ament_prefix_path.sh'
+[1.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rcpsl/Zhao_Liyuan_ws/autoturtle'
+[2.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/autoturtle': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/autoturtle build --build-base /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build install --record /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/install.log --single-version-externally-managed install_data
+[4.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/autoturtle' returned '0': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/autoturtle build --build-base /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build install --record /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/install.log --single-version-externally-managed install_data
+[4.231s] Level 1:colcon.colcon_core.environment:checking '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle' for CMake module files
+[4.233s] Level 1:colcon.colcon_core.environment:checking '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle' for CMake config files
+[4.235s] Level 1:colcon.colcon_core.environment:checking '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib'
+[4.236s] Level 1:colcon.colcon_core.environment:checking '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/bin'
+[4.236s] Level 1:colcon.colcon_core.environment:checking '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/pkgconfig/autoturtle.pc'
+[4.237s] Level 1:colcon.colcon_core.environment:checking '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages'
+[4.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoturtle', 'pythonpath')
+[4.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/hook/pythonpath.ps1'
+[4.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/hook/pythonpath.dsv'
+[4.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/hook/pythonpath.sh'
+[4.245s] Level 1:colcon.colcon_core.environment:checking '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/bin'
+[4.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoturtle)
+[4.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/package.ps1'
+[4.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/package.dsv'
+[4.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/package.sh'
+[4.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/package.bash'
+[4.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle/package.zsh'
+[4.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/colcon-core/packages/autoturtle)
+[4.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.264s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.291s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.330s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.331s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rcpsl/Zhao_Liyuan_ws/install/local_setup.ps1'
+[4.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rcpsl/Zhao_Liyuan_ws/install/_local_setup_util_ps1.py'
+[4.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rcpsl/Zhao_Liyuan_ws/install/setup.ps1'
+[4.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rcpsl/Zhao_Liyuan_ws/install/local_setup.sh'
+[4.342s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rcpsl/Zhao_Liyuan_ws/install/_local_setup_util_sh.py'
+[4.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rcpsl/Zhao_Liyuan_ws/install/setup.sh'
+[4.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rcpsl/Zhao_Liyuan_ws/install/local_setup.bash'
+[4.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rcpsl/Zhao_Liyuan_ws/install/setup.bash'
+[4.351s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rcpsl/Zhao_Liyuan_ws/install/local_setup.zsh'
+[4.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rcpsl/Zhao_Liyuan_ws/install/setup.zsh'

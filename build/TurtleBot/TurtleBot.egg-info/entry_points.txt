@@ -1,0 +1,9 @@
+[console_scripts]
+Motion_Planner = TurtleBot.Motion_Planner:main
+Motion_Planner_LAB3 = TurtleBot.Motion_Planner_LAB3:main
+Motion_Planner_LAB4 = TurtleBot.Motion_Planner_LAB4:main
+PID_Controller = TurtleBot.PID_Controller:main
+PID_Controller_LAB3 = TurtleBot.PID_Controller_LAB3:main
+RRT_node = TurtleBot.RRT_node:main
+RRT_node_LAB4 = TurtleBot.RRT_node_LAB4:main
+

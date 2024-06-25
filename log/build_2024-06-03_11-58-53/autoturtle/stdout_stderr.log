@@ -1,0 +1,25 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing autoturtle.egg-info/PKG-INFO
+writing dependency_links to autoturtle.egg-info/dependency_links.txt
+writing entry points to autoturtle.egg-info/entry_points.txt
+writing requirements to autoturtle.egg-info/requires.txt
+writing top-level names to autoturtle.egg-info/top_level.txt
+reading manifest file 'autoturtle.egg-info/SOURCES.txt'
+writing manifest file 'autoturtle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages/autoturtle.egg-link (link to .)
+Installing listener script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+Installing my_teleop_node script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+Installing swim_node script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+Installing swim_to_goal script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+Installing test script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+Installing test2 script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+Installing two_circle_8shape script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+
+Installed /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle
+running symlink_data
+symbolically linking /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/resource/autoturtle -> /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/ament_index/resource_index/packages
+symbolically linking /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/package.xml -> /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle

@@ -1,0 +1,8 @@
+[0.086s] Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_fake_node -- -j2 -l2
+[0.949s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[16.775s] gmake[2]: *** wait: No child processes.  Stop.
+[16.776s] gmake[2]: *** Waiting for unfinished jobs....
+[16.776s] gmake[2]: *** wait: No child processes.  Stop.
+[16.790s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlebot3_fake_node.dir/all] Error 2
+[16.791s] gmake: *** [Makefile:146: all] Interrupt
+[16.848s] Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_fake_node' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_fake_node -- -j2 -l2

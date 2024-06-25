@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.001296] (autoturtle) JobQueued: {'identifier': 'autoturtle', 'dependencies': OrderedDict()}
+[0.003091] (autoturtle) JobStarted: {'identifier': 'autoturtle'}
+[0.097447] (-) TimerEvent: {}
+[0.200785] (-) TimerEvent: {}
+[0.301507] (-) TimerEvent: {}
+[0.402182] (-) TimerEvent: {}
+[0.502839] (-) TimerEvent: {}
+[0.603456] (-) TimerEvent: {}
+[0.704506] (-) TimerEvent: {}
+[0.805323] (-) TimerEvent: {}
+[0.905883] (-) TimerEvent: {}
+[1.006489] (-) TimerEvent: {}
+[1.107094] (-) TimerEvent: {}
+[1.207767] (-) TimerEvent: {}
+[1.308370] (-) TimerEvent: {}
+[1.409080] (-) TimerEvent: {}
+[1.509779] (-) TimerEvent: {}
+[1.610737] (-) TimerEvent: {}
+[1.711286] (-) TimerEvent: {}
+[1.811787] (-) TimerEvent: {}
+[1.912373] (-) TimerEvent: {}
+[2.013053] (-) TimerEvent: {}
+[2.113662] (-) TimerEvent: {}
+[2.214310] (-) TimerEvent: {}
+[2.314955] (-) TimerEvent: {}
+[2.415514] (-) TimerEvent: {}
+[2.515992] (-) TimerEvent: {}
+[2.616929] (-) TimerEvent: {}
+[2.679844] (autoturtle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/autoturtle', 'build', '--build-base', '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build', 'install', '--record', '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rcpsl/Zhao_Liyuan_ws/autoturtle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rcpsl', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rcpsl', 'OLDPWD': '/home/rcpsl', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1543', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rcpsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rcpsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rcpsl-ros2-vm:@/tmp/.ICE-unix/1237,unix/rcpsl-ros2-vm:/tmp/.ICE-unix/1237', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1773870f_40b2_425c_ac56_275c8611020a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EQ1LM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.717318] (-) TimerEvent: {}
+[2.818075] (-) TimerEvent: {}
+[2.918604] (-) TimerEvent: {}
+[3.019097] (-) TimerEvent: {}
+[3.119620] (-) TimerEvent: {}
+[3.220196] (-) TimerEvent: {}
+[3.320752] (-) TimerEvent: {}
+[3.421363] (-) TimerEvent: {}
+[3.521875] (-) TimerEvent: {}
+[3.622498] (-) TimerEvent: {}
+[3.665385] (autoturtle) StdoutLine: {'line': b'running egg_info\n'}
+[3.667786] (autoturtle) StdoutLine: {'line': b'writing ../build/autoturtle/autoturtle.egg-info/PKG-INFO\n'}
+[3.669897] (autoturtle) StdoutLine: {'line': b'writing dependency_links to ../build/autoturtle/autoturtle.egg-info/dependency_links.txt\n'}
+[3.670901] (autoturtle) StdoutLine: {'line': b'writing entry points to ../build/autoturtle/autoturtle.egg-info/entry_points.txt\n'}
+[3.671772] (autoturtle) StdoutLine: {'line': b'writing requirements to ../build/autoturtle/autoturtle.egg-info/requires.txt\n'}
+[3.673063] (autoturtle) StdoutLine: {'line': b'writing top-level names to ../build/autoturtle/autoturtle.egg-info/top_level.txt\n'}
+[3.680708] (autoturtle) StdoutLine: {'line': b"reading manifest file '../build/autoturtle/autoturtle.egg-info/SOURCES.txt'\n"}
+[3.684278] (autoturtle) StdoutLine: {'line': b"writing manifest file '../build/autoturtle/autoturtle.egg-info/SOURCES.txt'\n"}
+[3.685135] (autoturtle) StdoutLine: {'line': b'running build\n'}
+[3.685397] (autoturtle) StdoutLine: {'line': b'running build_py\n'}
+[3.688996] (autoturtle) StdoutLine: {'line': b'copying autoturtle/swim_to_goal.py -> /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build/lib/autoturtle\n'}
+[3.692390] (autoturtle) StdoutLine: {'line': b'running install\n'}
+[3.694002] (autoturtle) StdoutLine: {'line': b'running install_lib\n'}
+[3.697218] (autoturtle) StdoutLine: {'line': b'copying /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build/lib/autoturtle/swim_to_goal.py -> /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages/autoturtle\n'}
+[3.701179] (autoturtle) StdoutLine: {'line': b'byte-compiling /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages/autoturtle/swim_to_goal.py to swim_to_goal.cpython-310.pyc\n'}
+[3.710065] (autoturtle) StdoutLine: {'line': b'running install_data\n'}
+[3.715208] (autoturtle) StdoutLine: {'line': b'copying package.xml -> /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle\n'}
+[3.715585] (autoturtle) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.722628] (-) TimerEvent: {}
+[3.725978] (autoturtle) StdoutLine: {'line': b"removing '/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages/autoturtle-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.726270] (autoturtle) StdoutLine: {'line': b'Copying ../build/autoturtle/autoturtle.egg-info to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages/autoturtle-0.0.0-py3.10.egg-info\n'}
+[3.732184] (autoturtle) StdoutLine: {'line': b'running install_scripts\n'}
+[3.822850] (-) TimerEvent: {}
+[3.877911] (autoturtle) StdoutLine: {'line': b'Installing listener script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle\n'}
+[3.880890] (autoturtle) StdoutLine: {'line': b'Installing my_teleop_node script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle\n'}
+[3.881706] (autoturtle) StdoutLine: {'line': b'Installing swim_node script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle\n'}
+[3.882549] (autoturtle) StdoutLine: {'line': b'Installing swim_to_goal script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle\n'}
+[3.883517] (autoturtle) StdoutLine: {'line': b'Installing two_circle_8shape script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle\n'}
+[3.886226] (autoturtle) StdoutLine: {'line': b"writing list of installed files to '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/install.log'\n"}
+[3.923002] (-) TimerEvent: {}
+[3.931581] (autoturtle) CommandEnded: {'returncode': 0}
+[4.012536] (autoturtle) JobEnded: {'identifier': 'autoturtle', 'rc': 0}
+[4.019277] (-) EventReactorShutdown: {}

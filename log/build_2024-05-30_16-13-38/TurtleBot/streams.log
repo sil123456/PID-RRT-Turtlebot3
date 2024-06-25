@@ -1,0 +1,40 @@
+[3.527s] Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/src/TurtleBot': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/TurtleBot build --build-base /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build install --record /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/install.log --single-version-externally-managed install_data
+[5.487s] running egg_info
+[5.503s] writing ../../build/TurtleBot/TurtleBot.egg-info/PKG-INFO
+[5.504s] writing dependency_links to ../../build/TurtleBot/TurtleBot.egg-info/dependency_links.txt
+[5.506s] writing entry points to ../../build/TurtleBot/TurtleBot.egg-info/entry_points.txt
+[5.507s] writing requirements to ../../build/TurtleBot/TurtleBot.egg-info/requires.txt
+[5.512s] writing top-level names to ../../build/TurtleBot/TurtleBot.egg-info/top_level.txt
+[5.533s] reading manifest file '../../build/TurtleBot/TurtleBot.egg-info/SOURCES.txt'
+[5.550s] writing manifest file '../../build/TurtleBot/TurtleBot.egg-info/SOURCES.txt'
+[5.551s] running build
+[5.560s] running build_py
+[5.562s] copying TurtleBot/PID_Controller.py -> /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build/lib/TurtleBot
+[5.564s] copying TurtleBot/new1.py -> /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build/lib/TurtleBot
+[5.577s] copying TurtleBot/new2.py -> /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build/lib/TurtleBot
+[5.580s] running install
+[5.586s] running install_lib
+[5.604s] copying /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build/lib/TurtleBot/PID_Controller.py -> /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot
+[5.604s] copying /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build/lib/TurtleBot/new1.py -> /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot
+[5.604s] copying /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build/lib/TurtleBot/new2.py -> /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot
+[5.605s] byte-compiling /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot/PID_Controller.py to PID_Controller.cpython-310.pyc
+[5.622s] byte-compiling /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot/new1.py to new1.cpython-310.pyc
+[5.633s] byte-compiling /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot/new2.py to new2.cpython-310.pyc
+[5.637s] running install_data
+[5.655s] running install_egg_info
+[5.660s] removing '/home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot-0.0.0-py3.10.egg-info' (and everything under it)
+[5.670s] Copying ../../build/TurtleBot/TurtleBot.egg-info to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot-0.0.0-py3.10.egg-info
+[5.681s] running install_scripts
+[5.848s] Installing Motion_Planner script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.849s] Installing Motion_Planner_LAB3 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.850s] Installing Motion_Planner_LAB4 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.851s] Installing PID_Controller script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.852s] Installing PID_Controller_LAB3 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.857s] Installing RRT_node script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.858s] Installing RRT_node_LAB4 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.866s] Installing new1 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.874s] Installing new2 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.875s] Installing test script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.876s] Installing test2 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[5.878s] writing list of installed files to '/home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/install.log'
+[6.055s] Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/src/TurtleBot' returned '0': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/TurtleBot build --build-base /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build install --record /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/install.log --single-version-externally-managed install_data

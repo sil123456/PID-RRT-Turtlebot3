@@ -1,0 +1,27 @@
+[2.549s] Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build --no-deps symlink_data --force
+[3.859s] running develop
+[3.859s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.859s]   warnings.warn(
+[4.760s] running egg_info
+[4.761s] writing autoturtle.egg-info/PKG-INFO
+[4.762s] writing dependency_links to autoturtle.egg-info/dependency_links.txt
+[4.763s] writing entry points to autoturtle.egg-info/entry_points.txt
+[4.764s] writing requirements to autoturtle.egg-info/requires.txt
+[4.764s] writing top-level names to autoturtle.egg-info/top_level.txt
+[4.771s] reading manifest file 'autoturtle.egg-info/SOURCES.txt'
+[4.786s] writing manifest file 'autoturtle.egg-info/SOURCES.txt'
+[4.789s] running build_ext
+[4.789s] Creating /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages/autoturtle.egg-link (link to .)
+[4.790s] Installing listener script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[4.791s] Installing my_teleop_node script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[4.792s] Installing swim_node script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[4.797s] Installing swim_to_goal script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[4.797s] Installing test script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[4.798s] Installing test2 script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[4.799s] Installing two_circle_8shape script to /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/autoturtle
+[4.800s] 
+[4.800s] Installed /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle
+[4.800s] running symlink_data
+[4.801s] symbolically linking /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/resource/autoturtle -> /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/ament_index/resource_index/packages
+[4.802s] symbolically linking /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/package.xml -> /home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/share/autoturtle
+[4.943s] Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle' returned '0': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/autoturtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rcpsl/Zhao_Liyuan_ws/build/autoturtle/build --no-deps symlink_data --force

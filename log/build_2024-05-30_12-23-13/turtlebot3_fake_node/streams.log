@@ -1,0 +1,6 @@
+[0.083s] Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_fake_node -- -j2 -l2
+[0.580s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[124.520s] gmake[2]: *** [CMakeFiles/turtlebot3_fake_node.dir/build.make:76: CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o] Interrupt
+[124.520s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlebot3_fake_node.dir/all] Interrupt
+[124.520s] gmake: *** [Makefile:146: all] Interrupt
+[125.039s] Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_fake_node' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rcpsl/Zhao_Liyuan_ws/build/turtlebot3_fake_node -- -j2 -l2

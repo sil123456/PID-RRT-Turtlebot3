@@ -1,0 +1,6 @@
+source;share/autoturtle/hook/pythonpath.ps1
+source;share/autoturtle/hook/pythonpath.dsv
+source;share/autoturtle/hook/pythonpath.sh
+source;share/autoturtle/hook/ament_prefix_path.ps1
+source;share/autoturtle/hook/ament_prefix_path.dsv
+source;share/autoturtle/hook/ament_prefix_path.sh

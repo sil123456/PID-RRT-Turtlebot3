@@ -1,0 +1,9 @@
+[console_scripts]
+listener = autoturtle.turtlesim_node:main
+my_teleop_node = autoturtle.my_teleop_node:main
+swim_node = autoturtle.swim_node:main
+swim_to_goal = autoturtle.swim_to_goal:main
+test = autoturtle.test:main
+test2 = autoturtle.test2:main
+two_circle_8shape = autoturtle.two_circle_8shape:main
+

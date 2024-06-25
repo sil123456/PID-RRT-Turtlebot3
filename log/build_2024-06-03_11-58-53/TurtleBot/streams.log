@@ -1,0 +1,27 @@
+[2.646s] Invoking command in '/home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build --no-deps symlink_data --force
+[3.557s] running develop
+[3.558s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.558s]   warnings.warn(
+[4.493s] running egg_info
+[4.493s] writing TurtleBot.egg-info/PKG-INFO
+[4.496s] writing dependency_links to TurtleBot.egg-info/dependency_links.txt
+[4.497s] writing entry points to TurtleBot.egg-info/entry_points.txt
+[4.510s] writing requirements to TurtleBot.egg-info/requires.txt
+[4.510s] writing top-level names to TurtleBot.egg-info/top_level.txt
+[4.510s] reading manifest file 'TurtleBot.egg-info/SOURCES.txt'
+[4.520s] writing manifest file 'TurtleBot.egg-info/SOURCES.txt'
+[4.527s] running build_ext
+[4.530s] Creating /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages/TurtleBot.egg-link (link to .)
+[4.530s] Installing Motion_Planner script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[4.530s] Installing Motion_Planner_LAB3 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[4.531s] Installing Motion_Planner_LAB4 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[4.531s] Installing PID_Controller script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[4.535s] Installing PID_Controller_LAB3 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[4.535s] Installing RRT_node script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[4.535s] Installing RRT_node_LAB4 script to /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/TurtleBot
+[4.536s] 
+[4.536s] Installed /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot
+[4.536s] running symlink_data
+[4.536s] symbolically linking /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/resource/TurtleBot -> /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/share/ament_index/resource_index/packages
+[4.537s] symbolically linking /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/package.xml -> /home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/share/TurtleBot
+[4.663s] Invoked command in '/home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot' returned '0': PYTHONPATH=/home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/prefix_override:/home/rcpsl/Zhao_Liyuan_ws/install/TurtleBot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rcpsl/Zhao_Liyuan_ws/build/TurtleBot/build --no-deps symlink_data --force
